@@ -1,0 +1,22 @@
+.h1{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.media{
+    height: 300px;
+    width: auto;
+}
+
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+.link{
+    color: white;
+}

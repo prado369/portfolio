@@ -2,31 +2,31 @@
     <head>
         <title>Pedro's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="./styles.css"/>
-        <div class="topnav">
-            <table>
-                <tr>
-                    <td>
-                        <a class="link" href="./index.html">Home</a>
-                    </td>
-                    <td>
-                        <a class="link" href="./projects.html">Projects</a>
-                    </td>
-                </tr>
-            </table>
-        </div>
+        <nav>
+            <a href="./index.html">Home</a> |
+            <a href="./projects.html">Projects</a> |
+        </nav>
     </head>
     <body>
-        
-        <h1 class="h1">Hello World!</h1>
-            <video class="media" src="https://youtu.be/xz9jILtUeGk" controls>Video not supported</video>
-        <h1 class="h1">Personal Bio</h1>
-            <p class="p">Hello, everyone! My name is Pedro.<br>
-                I'm currently a poker dealer at a card room here in San Diego, CA.<br>
-                I received my Bachelor of Business Admininstration from the University of San Diego in 2009,<br>
-                and now I'm looking forward to becoming a full-stack MERN developer.</p>
-            <img class="media" src="./pedroPrado.jpg">
-            <p class="p">Find me on GitHub as <strong>@prado369</strong>.</p>
-            <p class="p">Check out my <a href="https://www.linkedin.com/in/pedro-prado-85697a23b" target="_blank">LinkedIn</a> profile.</p>
-            <p class="p">Contact me via email at <a href="mailto:prado369@gmail.com" target="_blank">prado369@gmail.com</a> for best response times.</p>
+        <main class="content">
+            <div class="video">
+                <h1 class="h1">Hello World!</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xz9jILtUeGk?si=_Ssh4pa7Bv1reLZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="bio">
+                <h1 class="h1">Personal Bio</h1>
+                <img class="media" src="./pedroPrado.jpg">
+                <p class="p">Hello, everyone! My name is Pedro.<br>
+                    I'm currently a poker dealer at a card room here in San Diego, CA.<br>
+                    I received my Bachelor of Business Admininstration from the University of San Diego in 2009,<br>
+                    and now I'm looking forward to becoming a full-stack MERN developer.</p>
+            </div>
+            <div class="contact">
+                <h1 class="h1">Contact Info</h1>
+                <p class="p">Find me on GitHub as <strong>@prado369</strong>.</p>
+                <p class="p">Check out my <a href="https://www.linkedin.com/in/pedro-prado-85697a23b" target="_blank">LinkedIn</a> profile.</p>
+                <p class="p">Contact me via email at <a href="mailto:prado369@gmail.com" target="_blank">prado369@gmail.com</a> for best response times.</p>
+            </div>
+        </main>
     </body>
 </html>
